@@ -5,8 +5,9 @@ version = '1.0'
 
 setup(name='gocept.datetimewidget',
       version=version,
-      description="Integration package for zc.datetimewidget whithout using zc.resourcelibrary",
-      long_description=open("CHANGES.txt").read(),
+      description="Integration package for using zc.datetimewidget in Zope 2",
+      long_description='\n\n'.join((open("CHANGES.txt").read(),
+                                  open("README.txt").read())),
       classifiers=[
         "Programming Language :: Python",
         "Topic :: Software Development :: Libraries :: Python Modules",
