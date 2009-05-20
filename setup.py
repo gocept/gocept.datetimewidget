@@ -18,7 +18,7 @@ setup(name='gocept.datetimewidget',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Topic :: Internet :: WWW/HTTP',
-        'Framework :: Zope2'],
+        'Framework :: Zope2'
         ],
       keywords='date datetime widget zope2 zope3 zope.formlib',
       author='Daniel Havlik',
