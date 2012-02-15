@@ -54,3 +54,13 @@ Or make sure the following resources are loaded
     /++resource++zc.datetimewidget/languages/calendar-en.js
     /++resource++zc.datetimewidget/calendar-setup.js
 
+Or use Fanstatic_::
+
+    import fanstatic
+    from gocept.datetimewidget.resource import Library
+
+    datetimecalendar = fanstatic.Resource(
+        Library, 'calendar.js',
+        minified='calendar.js')
+
+.. _Fanstatic: http://www.fanstatic.org/
