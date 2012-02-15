@@ -5,6 +5,8 @@ Changes
 ----------------
 
 - Moved install requirement `fanstatic` to an extra requirement.
+- Provide direct `fanstatic` resources for the javascript, css and language
+  files.
 
 
 1.2 (2012-02-15)

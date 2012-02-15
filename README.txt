@@ -56,11 +56,7 @@ Or make sure the following resources are loaded
 
 Or use Fanstatic_::
 
-    import fanstatic
-    from gocept.datetimewidget.resource import Library
-
-    datetimecalendar = fanstatic.Resource(
-        Library, 'calendar.js',
-        minified='calendar.js')
+    import gocept.datetimewidget.resource
+    gocept.datetimewidget.resource.datetimewidget.need()
 
 .. _Fanstatic: http://www.fanstatic.org/
