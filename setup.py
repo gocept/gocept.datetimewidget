@@ -31,10 +31,11 @@ setup(name='gocept.datetimewidget',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'fanstatic',
           'zc.datetimewidget',
           'zope.app.publisher'
       ],
+      extras_require=dict(
+          fanstatic=['fanstatic']),
       entry_points = {
           'fanstatic.libraries': [
               'gocept.datetimewidget=gocept.datetimewidget.resource:Library'],
