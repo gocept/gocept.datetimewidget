@@ -6,7 +6,9 @@ calendar = fanstatic.Resource(
     Library, 'calendar.js')
 
 calendar_setup = fanstatic.Resource(
-    Library, 'calendar-setup.js')
+    Library,
+    'calendar-setup.js',
+    depends=[calendar])
 
 calendar_css_blue = fanstatic.Resource(
     Library, 'calendar-blue.css')
