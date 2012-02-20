@@ -4,7 +4,7 @@ Changes
 1.5 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Fixed a sequence problem when loading the calendar.
 
 
 1.4 (2012-02-16)
