@@ -4,8 +4,7 @@ Changes
 1.5 (unreleased)
 ----------------
 
-- Nothing changed yet.
-
+- Move code to bitbucket.org.
 
 1.4.1 (2012-02-20)
 ------------------
